@@ -12,21 +12,14 @@ The application includes login, game statistics, and Top 5 scorer
 feature.
 
 ## Features
-User authentication using database credentials
-
-Interactive Tic-Tac-Toe game built with Java Swing
-
-Automatic win, lose, and draw detection
-
-Player statistics tracking
-
-Score calculation based on game results
-
-Personal statistics display
-
-Top 5 leaderboard based on player scores
-
-Database integration using JDBC
+- User authentication using database credentials
+- Interactive Tic-Tac-Toe game built with Java Swing
+- Automatic win, lose, and draw detection
+- Player statistics tracking
+- Score calculation based on game results
+- Personal statistics display
+- Top 5 leaderboard based on player scores
+- Database integration using JDBC
 
 ## Database
 Database used: MySQL 
@@ -44,15 +37,15 @@ players
 
 ### Table Structure
 
-| Column | Data Type | Description |
-|---------|------------|------------|
+| Column | Data Type | 
+|---------|------------|
 | id | INT | Primary Key |
-| username | VARCHAR(50) | Player username |
-| password | VARCHAR(100) | Player password |
-| wins | INT | Number of wins |
-| losses | INT | Number of losses |
-| draws | INT | Number of draws |
-| score | INT | Total player score |
+| username | VARCHAR(50) | 
+| password | VARCHAR(100) | 
+| wins | INT | 
+| losses | INT | 
+| draws | INT | 
+| score | INT | 
 
 ## How to Run
 1. Create a MySQL database.
@@ -62,35 +55,46 @@ players
 5. Open the project in IntelliJ IDEA or another Java IDE.
 6. Run Main.java.
 7. Log in using one of the available accounts in the database.
+   
 ## Class Explanation
-Main:
+### Main:
+
 Acts as the entry point of the application and launches the Login Window.
 
-DatabaseManager:
+### DatabaseManager:
+
 Handles database connection settings and provides JDBC connections for other classes.
 
-Player:
+### Player:
+
 Represents player information, including personal data and game statistics.
 
-PlayerService:
+### PlayerService:
+
 Manages database operations such as login validation, statistics updates, and leaderboard retrieval.
 
-GameLogic:
+### GameLogic:
+
 Contains the main game rules, including move validation, winner checking, draw detection, and computer moves.
 
-LoginFrame:
+### LoginFrame:
+
 Provides the user interface for entering username and password.
 
-MainMenuFrame:
+### MainMenuFrame:
+
 Displays the main menu and allows users to access different features of the application.
 
-GameFrame:
+### GameFrame:
+
 Handles the Tic-Tac-Toe gameplay interface and connects user actions with the game logic.
 
-StatisticsFrame:
+### StatisticsFrame:
+
 Displays the current player's game statistics.
 
-TopScorersFrame:
+### TopScorersFrame:
+
 Shows the Top 5 players ranked by score using a JTable component.
 
 ## Screenshots
@@ -159,6 +163,7 @@ Shows the Top 5 players ranked by score using a JTable component.
 </tr>
 
 </table>
+
 ## Video Link
 YouTube:
 [https://youtu.be/Bv56fwcNArg?si=h7DhnJTu42UXzw_W]
