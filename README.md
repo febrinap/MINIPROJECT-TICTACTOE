@@ -99,21 +99,41 @@ Shows the Top 5 players ranked by score using a JTable component.
 
 ## Screenshots
 
-### Login & Navigation
+### Login System
 
 <table>
 <tr>
-<th>Login</th>
-<th>Main Menu</th>
+<th>Login Window</th>
+<th>Login Success</th>
+<th>Login Failed</th>
 </tr>
 
 <tr>
 <td>
-<img src="Screenshot 2026-06-26 153057.png">
+<img src="screenshot/login-window.png" width="250">
 </td>
 
 <td>
-<img src="screenshots/main-menu-window.png" width="400">
+<img src="screenshot/login-success.png" width="250">
+</td>
+
+<td>
+<img src="screenshot/login-failed.png" width="250">
+</td>
+</tr>
+
+</table>
+
+### Main Menu
+
+<table>
+<tr>
+<th>Main Menu</th>
+</tr>
+
+<tr>
+<td align="center">
+<img src="screenshot/main-menu-window.png" width="300">
 </td>
 </tr>
 
@@ -123,22 +143,27 @@ Shows the Top 5 players ranked by score using a JTable component.
 
 <table>
 <tr>
-<th>Game Window</th>
+<th>Game Board</th>
 <th>Player Wins</th>
+<th>Player Loses</th>
 <th>Draw Result</th>
 </tr>
 
 <tr>
 <td>
-<img src="screenshots/game-window.png" width="300">
+<img src="screenshot/game-window.png" width="250">
 </td>
 
 <td>
-<img src="screenshots/win-result.png" width="300">
+<img src="screenshot/win-result.png" width="250">
 </td>
 
 <td>
-<img src="screenshots/draw-result.png" width="300">
+<img src="screenshot/lose-result.png" width="250">
+</td>
+
+<td>
+<img src="screenshot/draw-result.png" width="250">
 </td>
 </tr>
 
@@ -154,16 +179,15 @@ Shows the Top 5 players ranked by score using a JTable component.
 
 <tr>
 <td>
-<img src="screenshots/statistics-window.png" width="400">
+<img src="screenshot/statistics-window.png" width="350">
 </td>
 
 <td>
-<img src="screenshots/top-scorers-window.png" width="400">
+<img src="screenshot/top-scorers-window.png" width="350">
 </td>
 </tr>
 
 </table>
-
 ## Video Link
 YouTube:
 [https://youtu.be/Bv56fwcNArg?si=h7DhnJTu42UXzw_W]
