@@ -10,6 +10,7 @@ Class: E
 This project is a simple Tic-Tac-Toe game built using Java Swing.
 The application includes login, game statistics, and Top 5 scorer
 feature.
+
 ## Features
 User authentication using database credentials
 Interactive Tic-Tac-Toe game built with Java Swing
