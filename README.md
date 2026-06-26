@@ -13,13 +13,21 @@ feature.
 
 ## Features
 User authentication using database credentials
+
 Interactive Tic-Tac-Toe game built with Java Swing
+
 Automatic win, lose, and draw detection
+
 Player statistics tracking
+
 Score calculation based on game results
+
 Personal statistics display
+
 Top 5 leaderboard based on player scores
+
 Database integration using JDBC
+
 ## Database
 Database used: MySQL 
 Database Name:
@@ -47,12 +55,13 @@ players
 | score | INT | Total player score |
 
 ## How to Run
-1. Create the database.
-2. Import schema.sql.
-3. Open the Java project.
-4. Add JDBC driver.
-5. Configure DatabaseManager.java.
+1. Create a MySQL database.
+2. Execute the SQL script located in database/schema.sql.
+3. Add the MySQL JDBC Driver to the project libraries.
+4. Configure the database connection settings inside DatabaseManager.java.
+5. Open the project in IntelliJ IDEA or another Java IDE.
 6. Run Main.java.
+7. Log in using one of the available accounts in the database.
 ## Class Explanation
 Main:
 Acts as the entry point of the application and launches the Login Window.
@@ -85,7 +94,71 @@ TopScorersFrame:
 Shows the Top 5 players ranked by score using a JTable component.
 
 ## Screenshots
-Add screenshots here.
+
+### Login & Navigation
+
+<table>
+<tr>
+<th>Login</th>
+<th>Main Menu</th>
+</tr>
+
+<tr>
+<td>
+<img src="Screenshot 2026-06-26 153057.png">
+</td>
+
+<td>
+<img src="screenshots/main-menu-window.png" width="400">
+</td>
+</tr>
+
+</table>
+
+### Gameplay
+
+<table>
+<tr>
+<th>Game Window</th>
+<th>Player Wins</th>
+<th>Draw Result</th>
+</tr>
+
+<tr>
+<td>
+<img src="screenshots/game-window.png" width="300">
+</td>
+
+<td>
+<img src="screenshots/win-result.png" width="300">
+</td>
+
+<td>
+<img src="screenshots/draw-result.png" width="300">
+</td>
+</tr>
+
+</table>
+
+### Statistics & Leaderboard
+
+<table>
+<tr>
+<th>My Statistics</th>
+<th>Top 5 Scorers</th>
+</tr>
+
+<tr>
+<td>
+<img src="screenshots/statistics-window.png" width="400">
+</td>
+
+<td>
+<img src="screenshots/top-scorers-window.png" width="400">
+</td>
+</tr>
+
+</table>
 ## Video Link
 YouTube:
 [https://youtu.be/Bv56fwcNArg?si=h7DhnJTu42UXzw_W]
